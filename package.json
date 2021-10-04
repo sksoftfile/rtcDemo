@@ -1,0 +1,24 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sksoftfile/rtcDemo.git"
+  },
+  "author": "shashank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sksoftfile/rtcDemo/issues"
+  },
+  "homepage": "https://github.com/sksoftfile/rtcDemo#readme"
+}
