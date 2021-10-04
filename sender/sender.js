@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("ws://streamubro.azurewebsites.net")
+const webSocket = new WebSocket("wss://streamubro.azurewebsites.net")
 
 webSocket.onmessage = (event) => {
     handleSignallingData(JSON.parse(event.data))
